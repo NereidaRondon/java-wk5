@@ -6,17 +6,14 @@ public class SpacedLogger implements Logger{
 	//Then put back together with a space using String.join
 	
 	@Override
-	public void log(String log) {
-		
+	public void log(String log) {	
 	    log = String.join(" ", log.split(""));
 		System.out.println(log);
-		
 	}
 
 	
 	@Override
 	public void error(String error) {
-		
 		error = String.join(" ", error.split(""));
 		System.out.println("ERROR: "+error);
 	}

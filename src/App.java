@@ -14,9 +14,4 @@ public class App {
 				logger2.log("Bonjour!");
 		logger2.error("Akuna Matata");
 	}
-
 }
-
-
-
-

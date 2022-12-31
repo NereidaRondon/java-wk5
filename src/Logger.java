@@ -1,3 +1,4 @@
+//Create an interface named Logger with 2 void methods that take Strings as a argument
 
 public interface Logger {
 	
